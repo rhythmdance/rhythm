@@ -1,5 +1,26 @@
-.whatsapp img{
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.callnow {
     position: fixed;
+    bottom: 100px;
     right: 20px;
-    bottom:20px;
+    font-size: 30px;
+}
+
+.whatsapp {
+    position: fixed;
+    font-size: 30px;
+    bottom: 40px;
+    right: 20px;
 }
